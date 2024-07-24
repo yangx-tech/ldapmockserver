@@ -1,0 +1,45 @@
+#For LDAP simulation
+
+dn: dc=asia,dc=ad,dc=example,dc=com
+objectClass: top
+objectClass: domain
+dc: asia
+
+dn: ou=users,dc=asia,dc=ad,dc=example,dc=com
+objectClass: top
+objectClass: organizationalUnit
+ou: users
+
+dn: ou=Shanghai,dc=asia,dc=ad,dc=example,dc=com
+objectClass: top
+objectClass: organizationalUnit
+ou: Shanghai
+
+dn: cn=hackers,OU=Shanghai,DC=asia,DC=ad,DC=example,DC=com
+objectClass: top
+objectClass: person
+objectClass: organizationalPerson
+objectClass: inetOrgPerson
+cn: hackers
+sn: Smith
+givenName: Hacker
+displayName: Hacker Smith
+mail: hackers@example.com
+uid: hackers
+sAMAccountName: hackers
+userPassword: password
+
+
+dn: cn=eve,OU=Shanghai,DC=asia,DC=ad,DC=example,DC=com
+objectClass: top
+objectClass: person
+objectClass: organizationalPerson
+objectClass: inetOrgPerson
+cn: eve
+sn: Hou
+givenName: Eve
+displayName: Eve Huger
+mail: hackers@example.com
+uid: eve
+sAMAccountName: eve
+userPassword: password

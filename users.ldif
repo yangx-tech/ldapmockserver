@@ -1,21 +1,21 @@
 #For LDAP simulation
 
-dn: dc=asia,dc=ad,dc=example,dc=com
+dn: dc=asia,dc=ad,dc=celestica,dc=com
 objectClass: top
 objectClass: domain
 dc: asia
 
-dn: ou=users,dc=asia,dc=ad,dc=example,dc=com
+dn: ou=users,dc=asia,dc=ad,dc=celestica,dc=com
 objectClass: top
 objectClass: organizationalUnit
 ou: users
 
-dn: ou=Shanghai,dc=asia,dc=ad,dc=example,dc=com
+dn: ou=Shanghai,dc=asia,dc=ad,dc=celestica,dc=com
 objectClass: top
 objectClass: organizationalUnit
 ou: Shanghai
 
-dn: cn=hackers,OU=Shanghai,DC=asia,DC=ad,DC=example,DC=com
+dn: cn=hackers,OU=Shanghai,DC=asia,DC=ad,dc=celestica,DC=com
 objectClass: top
 objectClass: person
 objectClass: organizationalPerson
@@ -30,7 +30,7 @@ sAMAccountName: hackers
 userPassword: password
 
 
-dn: cn=eve,OU=Shanghai,DC=asia,DC=ad,DC=example,DC=com
+dn: cn=eve,OU=Shanghai,DC=asia,DC=ad,dc=celestica,DC=com
 objectClass: top
 objectClass: person
 objectClass: organizationalPerson

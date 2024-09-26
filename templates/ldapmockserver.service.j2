@@ -4,7 +4,7 @@ After=network.target
 
 [Service]
 User=root
-ExecStart=/usr/bin/java -jar /opt/ldapmockserver/ldapmockserver-0.0.1-SNAPSHOT.jar 'dc=asia,dc=ad,dc=example,dc=com' /opt/ldapmockserver/users.ldif
+ExecStart=/usr/bin/java -jar /opt/ldapmockserver/ldapmockserver-0.0.1-SNAPSHOT.jar 'dc=asia,dc=ad,dc=celestica,dc=com' /opt/ldapmockserver/users.ldif
 SuccessExitStatus=143
 Restart=on-failure
 RestartSec=10

@@ -20,6 +20,7 @@
         src: ./target/ldapmockserver-0.0.1-SNAPSHOT.jar
         dest: /opt/ldapmockserver/ldapmockserver-0.0.1-SNAPSHOT.jar
         mode: '0755'
+        force: yes
 
     - name: Create a systemd service file for the JAR
       template:
